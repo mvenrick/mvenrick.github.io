@@ -139,7 +139,7 @@ footer {
         float: left;
     }
 
-    .top-nav a {
+    .top-nav button {
         float: right;
         color: black;
         text-align: center;
@@ -163,7 +163,7 @@ footer {
         width: 100%;
     }
 
-    .top-nav a {
+    .top-nav button {
         float: right;
         color: black;
         text-align: center;
