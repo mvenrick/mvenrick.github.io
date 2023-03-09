@@ -9,11 +9,11 @@ const footPage = document.querySelector("#foot");
 cartPage.style.display = "none";
 
 //variables for nav elements
-const appliancesNav = document.querySelector("#appliances");
-const homeNav = document.querySelector("#home");
-const chocolatesNav = document.querySelector("#chocolates");
-const cartNav = document.querySelector("#cart");
-const coffeesNav = document.querySelector("#coffees");
+const appliancesNav = document.querySelector("#appliances-nav");
+const homeNav = document.querySelector("#home-nav");
+const chocolatesNav = document.querySelector("#chocolates-nav");
+const cartNav = document.querySelector("#cart-nav");
+const coffeesNav = document.querySelector("#coffees-nav");
 const continueShopping = document.querySelector("#continue-shopping");
 
 //event listeners for nav elements
