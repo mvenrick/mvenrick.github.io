@@ -75,7 +75,7 @@ button:active {
     margin-bottom: 15px;
 }
 
-.top-nav a {
+.top-nav button {
     display: inline-block;
     float: center;
     color: black;
@@ -86,14 +86,14 @@ button:active {
     width: 100%;
 }
 
-.top-nav a:hover {
+.top-nav button:hover {
     background-color: #ddd;
     color: black;
     border-bottom: solid white 5px;
     margin-bottom: -5px;
 }
 
-.top-nav a:active {
+.top-nav button:active {
     background-color: #04aa6d;
     color: white;
 }
