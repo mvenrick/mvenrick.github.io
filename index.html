@@ -10,7 +10,261 @@
 </head>
 
 <body>
-    <h1>TrackZilla</h1>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    </head>
+
+    <nav class="top-nav">
+        <h1 id="title">
+            Great Coffee Co.
+        </h1>
+
+        <a href="#cart" id="cart">Cart</a>
+        <a href="#appliances" id="appliances">Appliances</a>
+        <a href="#chocolates" id="chocolates">Chocolates</a>
+        <a href="#coffees" id="coffees">Coffees</a>
+        <a href="#home" id="home">Home</a>
+    </nav>
+
+    <div class="coffees">
+        <h1>
+            Coffee
+        </h1>
+        <div class="block">
+            <h2>
+                Dark Roast
+            </h2>
+            <p>
+                Dark roasted, rich caramel flavor profile
+            </p>
+            <img src="https://www.tastingtable.com/img/gallery/the-absolute-best-ways-to-keep-coffee-beans-fresh/l-intro-1647867653.jpg"
+                alt="dark roast beans">
+            <p id="dark-roast-price">
+                $12.99/pound
+            </p>
+            <button class="addToCart" id="Dark Roast" value="11.99" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+        <div class="block">
+            <h2>
+                Light Roast
+            </h2>
+            <p>
+                Lightly roasted, fruity, moderate acidity
+            </p>
+            <img src="https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/8:5/w_2696,h_1685,c_limit/Basically-Coffee-0219-03.jpg"
+                alt="light roast beans">
+            <p id="light-roast-price">
+                $12.99/pound
+            </p>
+            <button class="addToCart" id="Light Roast" value="9.99" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+        <div class="block">
+            <h2>
+                Celtic Grog
+            </h2>
+            <p>
+                Flavored coffee
+            </p>
+            <img src="https://worldoffoodanddrink.worldtravelguide.net/wp-content/uploads/2018/09/shu-Coffee-Beans-Bag_69380449-1440x823.jpg"
+                alt="celtic grog beans">
+            <p id="celtic-grog-price">
+                $12.99/pound
+            </p>
+            <button class="addToCart" id="Celtic Grog" value="11.49" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <div class="block">
+            <h2>
+                Colombian (Decaf)
+            </h2>
+            <p>
+                Decaffeinated
+            </p>
+            <img src="http://cdn.shopify.com/s/files/1/0836/5211/products/KauClassicMediumRoast_grande.png?v=1648757795"
+                alt="colombian beans">
+            <p id="colombian-decaf-price">
+                $12.99/pound
+            </p>
+            <button id="Colombian (Decaf)" value="12.49" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+        <div class="block">
+            <h2>
+                Ethiopian
+            </h2>
+            <p>
+                Dark roast, earthy with notes of lavender
+            </p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzpH6VuchFAjdHoSy_ZAyIy4rGta8bBZ_Xtg&usqp=CAU"
+                alt="Ethiopian beans">
+            <p id="ethiopian-price">
+                $12.99/pound
+            </p>
+            <button class="addToCart" id="Ethiopian" value="10.99" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+        <div class="block">
+            <h2>
+                Costa Rican
+            </h2>
+            <p>
+                Floral notes, medium roast, mild acidity
+            </p>
+            <img src="https://cdnimg.webstaurantstore.com/uploads/buying_guide/2020/8/2_bg_medium.jpg"
+                alt="costa rican beans">
+            <p id="costa-rican-price">
+                $12.99/pound
+            </p>
+            <button id="Costa Rican" value="12.99" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+
+        </div>
+    </div>
+
+    <div class="chocolates">
+        <h1>Chocolates</h1>
+        <div class="block">
+            <h2>
+                Milk Chocolate
+            </h2>
+            <p>
+                Velvety, rich milk chocolate
+            </p>
+            <img src="https://sugarfreelondoner.com/wp-content/uploads/2023/01/keto-milk-chocolate-1200.jpg"
+                alt="milk chocolate">
+            <p id="milk-chocolate-price">
+                $3.99
+            </p>
+            <button class="addToCart" id="Milk Chocolate" value="3.99" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+        <div class="block">
+            <h2>
+                Dark Chocolate
+            </h2>
+            <p>
+                Earthy, dark chocolate with a bite
+            </p>
+            <img src="https://images.seattletimes.com/wp-content/uploads/2023/02/02082023_1-lead-chocolate_183204.jpg?d=780x1122"
+                alt="dark chocolate">
+            <p id="dark-chocolate-price">
+                $4.99
+            </p>
+            <button class="addToCart" id="Dark Chocolate" value="4.99" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+        <div class="block">
+            <h2>
+                White Chocolate
+            </h2>
+            <p>
+                Creamy white chocolate
+            </p>
+            <img src="https://sugarfreelondoner.com/wp-content/uploads/2020/09/Sugar-Free-White-Chocolate-1200.jpg"
+                alt="white chocolate">
+            <p id="white-chocolate-price">
+                $3.49
+            </p>
+            <button class="addToCart" id="White Chocolate" value="3.49" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="appliances">
+        <h1>
+            Appliances
+        </h1>
+        <div class="block">
+
+            <h2>
+                Old World Grinder
+            </h2>
+            <p>
+                Hand powered burr grinder
+            </p>
+            <img src="https://cdn11.bigcommerce.com/s-6h7ychjk4/images/stencil/1280x1280/products/9993/93164/timemore-slim-grinder-enb-burrs__22787_copy__70717.1648573260.jpg?c=1"
+                alt="hand coffee grinder">
+            <p id="hand-grinder-price">
+                $29.99
+            </p>
+            <button class="addToCart" id="Old World Grinder" value="29.99" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+        <div class="block">
+            <h2>
+                Burr Grinder
+            </h2>
+            <p>
+                Electric powered burr grinder
+            </p>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51MJ2BJ5pzL.jpg" alt="electric coffee grinder">
+            <p id="electric-grinder-price">
+                $69.99
+            </p>
+            <button class="addToCart" id="Burr Grinder" value="69.99" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+        <div class="block">
+            <h2>
+                Pour Over
+            </h2>
+            <p>
+                Glass pour over kit
+            </p>
+            <img src="https://assets.bonappetit.com/photos/61d72d8a40ef41eafe8583df/16:9/w_2560%2Cc_limit/Pure-Over-coffee-kit.jpg"
+                alt="glass pour over kit">
+            <p id="pour-over-price">
+                $54.99
+            </p>
+            <button class="addToCart" id="Pour Over" value="54.99" onclick="addItem(this.id, this.value)">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+
+    <footer id="foot">
+        <p>
+            Our customer service representatives are here to assist you 24/7
+            <br>
+            Please call our toll free number at 1-800-555-5555
+            <br>
+            Or send us an email at notrealcustomer@service.com
+        </p>
+        <p>
+            Great Coffee Company&#169 2023 (Not really incorporated)
+        </p>
+    </footer>
+
+    <div class="cart">
+        <div class="line-items">
+            <ul class="cart-items">
+            </ul>
+        </div>
+        <div class="total">
+        </div>
+        <div>
+            <button id="continue-shopping">Coninue Shopping</button>
+        </div>
+    </div>
 
 
 
