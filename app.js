@@ -18,7 +18,7 @@ const continueShopping = document.querySelector("#continue-shopping");
 
 //variables for cart counting
 const cartDisplay = document.querySelector("#cart");
-const buttons = document.querySelector("button");
+const addToCartButtons = document.querySelector(".add-to-cart");
 
 //event listeners for nav elements
 appliancesNav.addEventListener("click", function () {
@@ -126,7 +126,7 @@ function getTotal() {
     document.querySelector(".total").innerText = `Your subtotal is $${subTotal}`;
 }
 
-buttons.addEventListener("click", function () {
+addToCartButtons.addEventListener("click", function () {
     cartNav.innerText = `Cart(${productValues.length})`;
     cartDisplay.innerText = `Cart(${productValues.length})`;
 });
