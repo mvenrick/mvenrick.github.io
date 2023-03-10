@@ -16,6 +16,10 @@ const cartNav = document.querySelector("#cart-nav");
 const coffeesNav = document.querySelector("#coffees-nav");
 const continueShopping = document.querySelector("#continue-shopping");
 
+//variables for cart counting
+const cartDisplay = document.querySelector("#cart");
+const buttons = document.querySelector("button");
+
 //event listeners for nav elements
 appliancesNav.addEventListener("click", function () {
     coffeesPage.style.display = "none";
@@ -121,3 +125,8 @@ function getTotal() {
     subTotal = Number.parseFloat(subTotal.toFixed(2));
     document.querySelector(".total").innerText = `Your subtotal is $${subTotal}`;
 }
+
+buttons.addEventListener("click", function () {
+    cartNav.innerText = `Cart(${productValues.length})`;
+    cartDisplay.innerText = `Cart(${productValues.length})`;
+});
