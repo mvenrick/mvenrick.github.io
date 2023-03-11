@@ -69,7 +69,7 @@ cartNav.addEventListener("click", function () {
     getTotal();
 });
 
-//price variables for shopping cart
+//price variables for shopping cart 
 let darkRoastPrice = 11.99;
 let lightRoastPrice = 9.99;
 let celticGrogPrice = 11.49;
